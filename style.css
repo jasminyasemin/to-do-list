@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(90deg, #ffa216 0%, #ff8787 51%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    color: whitesmoke;
+    font-size: 2.8rem;
+    letter-spacing: 0.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    margin-top: 1rem;
+}
+
+.wrapper input {
+    width: 25rem;
+    height: 1.7rem;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.wrapper button {
+    height: 1.8rem;
+    width: 5rem;
+    border: 9pxpx;
+    border-color: #fa05e1;
+    border-radius: 5px;
+    margin-left: 3px;
+    background-color: #ffa216;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: rgb(61, 55, 55);
+}
+
